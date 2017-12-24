@@ -1,0 +1,30 @@
+{
+  "name": "aws.lambda.debugger",
+  "version": "1.0.0",
+  "description": "AWS Lambda Debugger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliustaoglu/aws.lambda.debugger.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "debug"
+  ],
+  "author": "Cuneyt Aliustaoglu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliustaoglu/aws.lambda.debugger/issues"
+  },
+  "homepage": "https://github.com/aliustaoglu/aws.lambda.debugger#readme",
+  "devDependencies": {
+    "archiver": "^2.1.0",
+    "aws-sdk": "^2.175.0",
+    "ramda": "^0.25.0"
+  }
+}
