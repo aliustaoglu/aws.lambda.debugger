@@ -1,8 +1,8 @@
 module.exports = {
-  profile: 'cuneyt',
+  profile: 'default',
   lambdaConfigs : {
     Runtime: 'nodejs6.10',
-    Role: 'arn:aws:iam::504786997684:role/lambda_surf_execution',
+    Role: 'arn:aws:iam::000000000000:role/lambda_basic_execution',
     Handler: 'index.handler',
     Region: 'us-east-1'
   }

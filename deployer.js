@@ -11,8 +11,8 @@ module.exports = apiName => {
     return 0;
   }
   
-  AWS.config.update({ region: 'us-east-1' });
-  const credentials = new AWS.SharedIniFileCredentials({ profile: 'cuneyt' });
+  AWS.config.update({ region: config.lambdaConfigs.Region });
+  const credentials = new AWS.SharedIniFileCredentials({ profile: config.profile });
   AWS.config.credentials = credentials;
   const lambda = new AWS.Lambda();
 

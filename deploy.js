@@ -10,7 +10,7 @@ if (!apiName) {
 }
 
 // Deploy all the APIs in the apis folder
-if (apiName == '--ALL') {
+if (apiName == ':ALL') {
   const dirs = fs.readdirSync(path.join(__dirname, 'apis'));
   for(let i = 0; i<dirs.length; i++){
     const funcName = dirs[i];
